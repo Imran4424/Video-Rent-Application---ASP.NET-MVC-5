@@ -9,6 +9,11 @@
 @Model.customers
 
 
+@if( Model.customers.Count == 0)
+{
+    <text> No one has rented this movie before </text>
+}
+
 <ul>
     @foreach (var customer in Model.customers)
     {
