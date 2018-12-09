@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model Vidly.ViewModels.RandomMovieViewModel
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -9,7 +11,7 @@
 
 </head>
 <body>
-    
+    @Html.Partial("_NavBar", Model.movie);
     <div class="container body-content">
         @RenderBody()
         <hr />
