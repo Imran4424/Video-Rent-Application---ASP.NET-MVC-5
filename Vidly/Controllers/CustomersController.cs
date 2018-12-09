@@ -24,9 +24,23 @@ namespace Vidly.Controllers
 
         // GET: Customers / Index
 
-        public ActionResult Index()
+        public ViewResult Index()
         {
-            return View();
+            var customers = _context.Customers.Include(c => c.MembershipType).ToList();
+
+            return View(customers);
+        }
+
+        public ActionResult Details(int id)
+        {
+            var customers = _context.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
+
+            if(customers == null)
+            {
+                return HttpNotFound();
+            }
+
+            return View(customers);
         }
     }
 }
