@@ -13,10 +13,13 @@
 {
     <text> No one has rented this movie before </text>
 }
+else
+{
+    <ul>
+        @foreach (var customer in Model.customers)
+        {
+            <li> @customer.name </li>
+        }
+    </ul>
 
-<ul>
-    @foreach (var customer in Model.customers)
-    {
-        <li> @customer.name </li>
-    }
-</ul>
+}
