@@ -11,19 +11,19 @@ namespace Vidly.Migrations
                 "dbo.Customers",
                 c => new
                     {
-                        id = c.Int(nullable: false, identity: true),
-                        name = c.String(),
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(),
                     })
-                .PrimaryKey(t => t.id);
+                .PrimaryKey(t => t.Id);
             
             CreateTable(
                 "dbo.Movies",
                 c => new
                     {
-                        id = c.Int(nullable: false, identity: true),
-                        name = c.String(),
+                        Id = c.Int(nullable: false, identity: true),
+                        Name = c.String(),
                     })
-                .PrimaryKey(t => t.id);
+                .PrimaryKey(t => t.Id);
             
             CreateTable(
                 "dbo.AspNetRoles",
