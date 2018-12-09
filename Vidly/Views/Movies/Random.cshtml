@@ -5,7 +5,16 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2> @Model.movie.name </h2>
+@{ 
+    var classname = Model.customers.Count > 5 ? "popular" : null;
+
+    @*
+        this is a ternary operator block, we can also use if else condition    
+    *@ 
+}
+
+
+<h2 class="@classname"> @Model.movie.name </h2>
 @Model.customers
 
 
