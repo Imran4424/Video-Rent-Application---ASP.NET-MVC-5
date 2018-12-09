@@ -110,3 +110,4 @@ E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.pdb
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialModel.resources
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
+E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
