@@ -112,3 +112,4 @@ E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipType.resources
+E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
