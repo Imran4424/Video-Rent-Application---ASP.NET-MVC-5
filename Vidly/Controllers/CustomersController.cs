@@ -8,7 +8,8 @@ namespace Vidly.Controllers
 {
     public class CustomersController : Controller
     {
-        // GET: Customers
+        // GET: Customers / Index
+
         public ActionResult Index()
         {
             return View();
