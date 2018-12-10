@@ -115,3 +115,4 @@ E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMemb
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddNameToMembershipType.resources
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.SetNameOfMembershipTypes.resources
+E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddBirthDateToCustomer.resources
