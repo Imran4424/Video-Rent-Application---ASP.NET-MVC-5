@@ -71,14 +71,5 @@ namespace Vidly.Controllers
 
             return View(viewModel);
         }
-
-        // GET: Movies / Index
-
-        public ActionResult Index()
-        {
-
-
-            return View();
-        }
     }
 }
