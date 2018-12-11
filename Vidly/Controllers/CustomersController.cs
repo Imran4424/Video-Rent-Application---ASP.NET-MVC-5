@@ -33,7 +33,7 @@ namespace Vidly.Controllers
                 MembershipTypes = membershipTypes
             };
 
-            return View("CustomerForm", viewModel);
+            return View("CustomerFormViewModel", viewModel);
         }
 
         [HttpPost]
@@ -91,7 +91,7 @@ namespace Vidly.Controllers
                 MembershipTypes = _context.MembershipTypes.ToList()
             };
 
-            return View("CustomerForm", viewModel);
+            return View("CustomerFormViewModel", viewModel);
         }
     }
 }
