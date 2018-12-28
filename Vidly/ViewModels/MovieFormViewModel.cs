@@ -31,6 +31,7 @@ namespace Vidly.ViewModels
 
         [Display(Name = "Number in Stock")]
         [Required]
+        [Range(1, 200)]
         public byte? NumberInStock { get; set; }
 
         public string Title
