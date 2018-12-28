@@ -70,9 +70,9 @@ namespace Vidly.Controllers
         {
             if(!ModelState.IsValid)
             {
-                var viewModel = new MovieFormViewModel
+                var viewModel = new MovieFormViewModel(movie)
                 {
-                    Movie = movie,
+             
                     Genres = _context.Genres.ToList()
                 };
 
