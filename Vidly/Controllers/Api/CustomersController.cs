@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.Entity;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -28,7 +29,7 @@ namespace Vidly.Controllers.Api
 
         public Customer GetCustomer(int id)
         {
-            var customer = _context.Customers.SingleOrDefault(c >= c.Id == id);
+            var customer = _context.Customers.SingleOrDefault(m => m.Id == id);
 
             if (customer == null)
             {
@@ -46,9 +47,12 @@ namespace Vidly.Controllers.Api
             {
                 throw new HttpResponseException(HttpStatusCode.BadRequest);
             }
-            {
 
-            }
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+
+            return customer;
+        
         }
         
     }
