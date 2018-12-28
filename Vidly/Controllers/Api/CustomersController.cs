@@ -80,7 +80,7 @@ namespace Vidly.Controllers.Api
         }
 
         // Delete /api/customer/1
-
+        [HttpDelete]
         public void DeleteCustomer(int id)
         {
             var customerInDb = _context.Customers.SingleOrDefault(m => m.Id == id);
