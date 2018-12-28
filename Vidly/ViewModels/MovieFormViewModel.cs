@@ -43,5 +43,19 @@ namespace Vidly.ViewModels
                 return "New Movie";
             }
         }
+
+        public MovieFormViewModel()
+        {
+
+        }
+
+        public MovieFormViewModel(Movie movie)
+        {
+            Id = movie.Id;
+            Name = movie.Name;
+            ReleaseDate = movie.ReleaseDate;
+            NumberInStock = movie.NumberInStock;
+            GenreId = movie.GenreId;
+        }
     }
 }
