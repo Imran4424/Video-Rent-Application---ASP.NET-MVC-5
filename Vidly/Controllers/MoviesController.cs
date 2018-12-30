@@ -36,7 +36,7 @@ namespace Vidly.Controllers
        
             }
 
-            return View("ReadOnlyList");
+            return View("ReadOnlyList", movies);
         }
 
         // GET: Movies / New
