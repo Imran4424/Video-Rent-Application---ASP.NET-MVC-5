@@ -136,7 +136,7 @@ namespace Vidly.Controllers
             }
         }
 
-        //
+        
         // GET: /Account/Register
         [AllowAnonymous]
         public ActionResult Register()
