@@ -9,6 +9,7 @@ namespace Vidly
         {
             filters.Add(new HandleErrorAttribute());
 
+
         }
     }
 }
