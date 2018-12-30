@@ -55,7 +55,7 @@ namespace Vidly.Controllers
         }
 
         // EDIT mode
-        [Authorize(Roles = "CanManageMovies")]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
