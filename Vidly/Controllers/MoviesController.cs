@@ -39,9 +39,9 @@ namespace Vidly.Controllers
             return View("ReadOnlyList", movies);
         }
 
-        [Authorize(Roles = "CanManageMovies")]
         // GET: Movies / New
 
+        [Authorize(Roles = "CanManageMovies")]
         public ViewResult New()
         {
             var genres = _context.Genres.ToList();
@@ -55,7 +55,7 @@ namespace Vidly.Controllers
         }
 
         // EDIT mode
-
+        [Authorize(Roles = "CanManageMovies")]
         public ActionResult Edit(int id)
         {
             var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
