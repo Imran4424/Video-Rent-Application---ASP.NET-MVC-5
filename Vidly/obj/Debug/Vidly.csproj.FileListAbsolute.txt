@@ -124,3 +124,4 @@ E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\bin\System.Web.Http.WebHost.dll
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\bin\System.Net.Http.Formatting.xml
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\bin\System.Web.Http.xml
 E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\bin\System.Web.Http.WebHost.xml
+E:\WARRIOR\WEB\ASP.NET MVC 5\Vidly\Vidly\obj\Debug\Vidly.Migrations.SeedUsers.resources
