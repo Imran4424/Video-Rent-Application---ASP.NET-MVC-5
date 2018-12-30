@@ -12,7 +12,6 @@ using Vidly.Models;
 
 // ReSharper disable All
 
-
 namespace Vidly.Controllers 
 {
     [Authorize]
