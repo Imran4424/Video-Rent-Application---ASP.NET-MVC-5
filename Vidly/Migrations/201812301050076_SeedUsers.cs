@@ -13,6 +13,7 @@ namespace Vidly.Migrations
 
                 INSERT INTO [dbo].[AspNetRoles] ([Id], [Name]) VALUES (N'54a1f9bf-39ad-4f12-aa81-0b3935ebbad7', N'CanManageMovies')
 
+                INSERT INTO [dbo].[AspNetUserRoles] ([UserId], [RoleId]) VALUES (N'6629e918-c16d-4496-bc00-7ac075044ada', N'54a1f9bf-39ad-4f12-aa81-0b3935ebbad7')
 
             ");
         }
