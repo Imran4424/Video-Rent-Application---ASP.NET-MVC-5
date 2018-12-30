@@ -349,7 +349,7 @@ namespace Vidly.Controllers
             }
         }
 
-        //
+        
         // POST: /Account/ExternalLoginConfirmation
         [HttpPost]
         [AllowAnonymous]
