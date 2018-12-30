@@ -39,6 +39,7 @@ namespace Vidly.Controllers
             return View("ReadOnlyList", movies);
         }
 
+        [Authorize(Roles = "CanManageMovies")]
         // GET: Movies / New
 
         public ViewResult New()
