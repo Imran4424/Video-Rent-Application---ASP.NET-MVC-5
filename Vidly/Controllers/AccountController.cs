@@ -10,6 +10,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Vidly.Models;
 
+// ReSharper disable All
+
 
 namespace Vidly.Controllers 
 {
