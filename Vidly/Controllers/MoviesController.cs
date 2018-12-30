@@ -41,7 +41,7 @@ namespace Vidly.Controllers
 
         // GET: Movies / New
 
-        [Authorize(Roles = "CanManageMovies")]
+        [Authorize(Roles = RoleName.CanManageMovies)]
         public ViewResult New()
         {
             var genres = _context.Genres.ToList();
